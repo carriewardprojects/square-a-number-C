@@ -1,0 +1,15 @@
+// A simple C language program that accepts an input value, calculates the value squared, and outputs the result.
+
+#include <stdio.h>
+
+void main()
+{
+int num, square;
+
+printf("\nEnter an integer value: ");
+scanf("%d", & num);
+
+square = num*num;
+
+print("\n%d squared is %d\n", num, square);
+}
